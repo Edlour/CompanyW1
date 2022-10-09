@@ -1,0 +1,205 @@
+html, body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(59, 55, 137);    /* color of the scroll thumb */
+    border-radius: 0px;       /* roundness of the scroll thumb */
+    border: 1px solid rgba(255, 255, 255, 0.377);  /* creates padding around scroll thumb */
+  }
+/*Everything contained under nav tag*/
+img.company_logo {
+    cursor: pointer;
+}
+.company_logo{
+    width: 65px;
+    height: 55px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+.home,.About,.ourService,.serviceMap,.contactUs{
+    color: rgb(51, 51, 51);
+}
+.contactUs{
+    margin-right: 45px;
+}
+.signIn{
+    border: 2px rgb(242, 199, 220);
+    border-radius: 1em;
+    border-style: solid;
+    margin-right: 5px;
+    padding: 10px 25px;
+}
+.signIn:hover{
+    border: 2px rgb(242, 199, 220);
+    border-radius: 1em;
+    border-style: solid;
+    margin-right: 5px;
+    padding: 10px 25px;
+    background-color: rgb(242, 199, 220);
+    color: whitesmoke;
+}
+/*Everything contained under nav tag*/
+.sub-contain-nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(249, 249, 249);
+}
+.sub-contain-nav> ul {
+display: flex;
+list-style-type: none;
+margin-top: 45px;
+}
+.sub-contain-nav> ul li{
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.sub-contain-nav> ul li a{
+    font-weight: 900;
+    
+    text-decoration: none;
+}
+/*Main Body section starts here*/
+/*Main Body section starts here*/
+/*Main Body section starts here*/
+.main-container{
+    display: flex;
+}
+.heroTxt{
+    display: block;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: 60px;
+}
+.heroTxt>h1{
+    font-weight: bolder;
+    padding-bottom: 50px;
+    background: -webkit-linear-gradient(rgb(106, 99, 246), rgb(19, 231, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heroTxt>p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.heroImg{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.heroImg img{
+    display: block;
+    width: 520px;
+    height: 720px;
+    padding-left: 120px;
+    
+}
+.cta-btn{
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 63%;
+    margin-top: 5%;
+    border-style: none;
+    background-color: rgb(59, 55, 137);
+}
+.cta-btn:hover{
+    background-color:rgb(102, 98, 180);
+}
+/*SECOND PORTION AFTER MAIN HERO PAGE*/
+.flx-contain-second{
+    display: flex;
+    flex-direction: column;
+    
+}
+.second-about{
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto ;
+    height: 320px;
+    width: 50%;
+    line-height: 2.5em;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+.h1-contain-second{
+    font-size: 32px;
+    color: rgb(51, 51, 51);
+}
+.flx-contain-second{
+    justify-content: flex-end;
+}
+footer{
+    margin-top: 25px;
+background-color: rgb(59, 55, 137);
+}
+.footContain{
+    display: flex;
+    flex-direction: row;
+}
+.location{
+    padding: 15px;
+    width: 33.3%;
+    color: white;
+    line-height: 24px;
+}
+.location> h3{
+text-align: center;
+}
+.company{
+    padding: 15px;
+    width: 33.3%;
+    color: white;
+    line-height: 24px;
+   border-right: 1px solid white;
+   border-left: 1px solid white;
+}
+.company> h3{
+text-align: center;
+}
+.extra{
+    padding: 15px;
+    width: 33.3%;
+    color: white;
+    line-height: 24px;
+ 
+}
+.extra> h3{
+text-align: center;
+}
+.extra>p{
+    text-align: center;
+}
+.searchSite{
+    width: 150px;
+    border-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left:28%;
+}
+input[type="button" i]{
+    border-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: lightgreen;
+
+}
