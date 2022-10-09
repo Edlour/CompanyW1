@@ -4,3 +4,4 @@ Small HTML/CSS website using flexbox. relearning web dev.
 
 Design Inspired by: https://www.figma.com/@Saikrishna
 
+*Image does not show full project.*
